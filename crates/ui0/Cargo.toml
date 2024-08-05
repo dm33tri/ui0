@@ -1,0 +1,27 @@
+[package]
+name = "ui0"
+version = "0.0.1"
+edition = "2021"
+description = "Tool with included UI components"
+readme = "README.md"
+homepage = "https://ui0.dev/"
+license = "MIT"
+repository = "https://github.com/libui0/ui0"
+
+[dependencies]
+axum = "0"
+clap = { version = "4", features = ["derive"] }
+console = "0"
+log = "0"
+notify = "6"
+oxc_ast = "0"
+oxc_allocator = "0"
+oxc_codegen = "0"
+oxc_index = "0"
+oxc_parser = "0"
+oxc_resolver = "1"
+oxc_semantic = "0"
+oxc_span = "0"
+oxc_traverse = "0"
+tokio = { version = "1", features = ["full"] }
+webbrowser = "1"
